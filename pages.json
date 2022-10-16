@@ -1,0 +1,557 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "文化馆"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/seach/seach",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/consult/consult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文化资讯",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/consult-details/consult-details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/virtuosity/virtuosity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "艺术鉴赏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/intangible/intangible",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "非遗传承",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/carny/carny",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "艺团风采",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/carny-detail/carny-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reserve-msg/reserve-msg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预订信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/program/program",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约节目",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/reservation-status/reservation-status",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预订状态",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/venue/venue",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "场馆预约",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/venu-detail/venu-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "场馆详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/place/place",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "场地详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/appointment/appointment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约时间",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/place-msg/place-msg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "填写预订信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动参与",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity-index/activity-index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动名称",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/participation/participation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线报名",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ranking-list/ranking-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动详情-选手页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/live_broadcast/live_broadcast",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文化直播",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/broadcast_details/broadcast_details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "直播详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/match/match",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赛事参与",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/match_details/match_details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赛事名称",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/security/security",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "安全中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/map/map",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文化地图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/scenic-spot/scenic-spot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "旅游景点",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/scenic-spot-detail/scenic-spot-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "景点详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guidelines/guidelines",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "旅游路线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guidelines-detail/guidelines-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "路线详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/view-spot/view-spot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "景点详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/food/food",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "特色美食",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/food-detail/food-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "美食详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/food-introduce/food-introduce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "美食介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/homestay/homestay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "民宿酒店",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/homestay-detail/homestay-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "酒店详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cultural-relic/cultural-relic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文物保护",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/class-room/class-room",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文化课堂",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/class-room-detail/class-room-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文化课堂详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/class-room-place/class-room-place",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报名学习",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/venue-booking/venue-booking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "场馆订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/venue-bokking-detail/venue-bokking-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "场馆入场 ",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity-booking/activity-booking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/carny-booking/carny-booking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "艺团订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/competition/competition",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赛事作品",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit-password/edit-password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit-phone/edit-phone",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更换手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/scolo/scolo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user-adout/user-adout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/large-set/large-set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "赶大集",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/large-set-detail/large-set-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hierarchy/hierarchy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "层级",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/subclass/subclass",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/subclass-detail/subclass-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/twoIndex/twoIndex",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar":{
+		"color": "#999999",
+		"selectedColor": "#101010",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home-a.png",
+				"selectedIconPath": "static/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/user-a.png",
+				"selectedIconPath": "static/user.png",
+				"text": "我的"
+			} 
+		]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",  // 设置成 custom 即可解决微信H5双标题的问题
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "文化馆",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
